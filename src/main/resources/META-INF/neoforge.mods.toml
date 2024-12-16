@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+issueTrackerURL = "https://github.com/teaconmc/GiveMeMan/issues"
+license = "MIT"
+
+[[mods]]
+modId = "gimmeman"
+version = "${version}"
+displayName = "GiveMeMan"
+authors = "Me!"
+description = '''
+Gives players some stuff, and prevent others from giving players some stuff.
+'''
+#logoFile = ""
+
+[[dependencies.gimmeman]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.gimmeman]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "gimmeman.mixins.json"
