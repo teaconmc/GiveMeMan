@@ -1,0 +1,22 @@
+{
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ae2:guide"
+        },
+        {
+          "type": "item",
+          "name": "scattered_shards:shard_tablet"
+        },
+        {
+          "type": "item",
+          "name": "worldcomment:comment_tool"
+        }
+      ]
+    }
+  ]
+}

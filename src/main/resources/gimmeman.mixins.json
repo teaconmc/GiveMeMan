@@ -1,13 +1,14 @@
 {
   "required": true,
-  "package": "org.teacon.mixin",
+  "package": "org.teacon.gimmeman.mixin",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [
-    "MixinClientAdvancements"
   ],
   "mixins": [
-    "MixinPlayerAdvancements"
+    "AdvancementManagerMixin",
+    "AdvancementRewardsMixin",
+    "DisplayInfoMixin"
   ],
   "injectors": {
     "defaultRequire": 1
