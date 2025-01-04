@@ -4,11 +4,11 @@
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [
+    "MixinClientAdvancements"
   ],
   "mixins": [
-    "AdvancementManagerMixin",
-    "AdvancementRewardsMixin",
-    "DisplayInfoMixin"
+    "L2BackpackMixin",
+    "MixinPlayerAdvancements"
   ],
   "injectors": {
     "defaultRequire": 1

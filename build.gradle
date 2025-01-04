@@ -22,6 +22,10 @@ repositories {
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
+
+    flatDir {
+        dir "libs"
+    }
 }
 
 loom {
@@ -32,6 +36,8 @@ dependencies {
     minecraft "net.minecraft:minecraft:$project.minecraft_version"
     mappings loom.officialMojangMappings()
     neoForge "net.neoforged:neoforge:$project.neoforge_version"
+
+    modImplementation "libs:l2backpack:3.0.10"
 }
 
 processResources {
