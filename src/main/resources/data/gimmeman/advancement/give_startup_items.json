@@ -8,9 +8,5 @@
     "loot": [
       "gimmeman:give_startup_items"
     ]
-  },
-  "display": {
-    "show_toast": false,
-    "announce_to_chat": false
   }
 }
